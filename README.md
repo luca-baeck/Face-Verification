@@ -1,13 +1,13 @@
-<<<<<<< HEAD
-<h1 align="center"><project-name></h1>
+<h1 align="center">Face Verification</h1>
 
-<p align="center"><project-description></p>
+<p align="center">Bau einer Application, die ein deep learning Model erstellt, mit dem man eine
+Person über eine Webcam in Echtzeit erkennen, identifizieren und verifizieren kann.</p>
 
 ## Links
 
-- [Repo](https://github.com/luca-baeck/<project-name> "<project-name> Repo")
+- [Repository](https://github.com/luca-baeck/Face Verification "Face Verification Repository")
 
-- [Bugs](https://github.com/Rohit19060/<project-name>/issues "Issues Page")
+- [Bugs](https://github.com/Rohit19060/Face Verification/issues "Issues Page")
 
 
 ## Screenshots
@@ -20,59 +20,31 @@
 
 ## Available Commands
 
-In the project directory, you can run:
+Im Programm kannst du folgende Befehle ausführen:
 
-### `npm start" : "react-scripts start"`,
+### `Train Siamese Network`,
 
-The app is built using `create-react-app` so this command Runs the app in Development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. You also need to run the server file as well to completely run the app. The page will reload if you make edits.
-You will also see any lint errors in the console.
+Dies wird das neuronale Netz mit den zuvor aufgenommenen Testdaten von dir trainieren. In der Konfigurationsdatei kannst du die Anzahl der Trainingsepochen festlegen.
 
-### `"npm run build": "react-scripts build"`,
+### `Test Siamese Network`,
 
-Builds the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app will be ready to deploy!
+Dies wird das neuronale Netz mit einem zufälligen Datentestpacket testen und so aktuelle Werte wie den Recall und die Precision deines Models liefern.
 
-### `"npm run test": "react-scripts test"`,
+### `Set New Face`,
 
-Launches the test runner in the interactive watch mode.
+Dies wird alle bisherigen Daten löschen und über die Webcam ein neues Gesicht als positives Bild hinterlegen.
 
-### `"npm run dev": "concurrently "nodemon server" "npm run start"`,
+### `Verify`,
 
-For running the server and app together I am using concurrently this helps a lot in the MERN application as it runs both the server (client and server) concurrently. So you can work on them both together.
+Dies wird ein Bild über die Webcam aufnehmen und dem Model übergeben, welches dann bestimmt ob es sich in dem Bild um die zu verifizierende Person handelt.
 
-### `"serve": "node server"`
+## Sprachen
 
-For running the server file on you can use this command.
+- Python
 
-### `npm run serve`
+## Autor
 
-## Built With
+**Luca Bäck**
 
-- JavaScript
-- Node
-- NPM
-- Webpack
-- HTML
-- CSS
-
-## Future Updates
-
-- [ ] Reliable Storage
-
-## Author
-
-**Rohit Jain**
-
-- [Profile](https://github.com/rohit19060 "Rohit jain")
-- [Email](mailto:rohitjain19060@gmail.com?subject=Hi "Hi!")
-- [Website](https://kingtechnologies.in "Welcome")
-
-## 🤝 Support
-
-Contributions, issues, and feature requests are welcome!
-
-Give a ⭐️ if you like this project!
-=======
-# Face-Verification
-Bau einer Application, die ein deep learning Model erstellt, mit dem man eine
-Person über eine Webcam in Echtzeit erkennen, identifizieren und verifizieren kann.
->>>>>>> 13f7c622327fa3c260f9cc561680f45fb7f101eb
+- [Profil](https://github.com/luca-baeck "Luca Bäck")
+- [Email](mailto:luca.baeck@outlook.de?subject=Hi "Hi!")
