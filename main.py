@@ -306,12 +306,15 @@ class FaceIDAppMain(App):
             Window.set_icon("icon_complet.svg")
             Window.clearcolor =(0, 1, 0, 0)
             if gSendSMS:
-                message = client.messages \
-                    .create(
-                    body='Hey Luca, dein Computer wird gerade von einer verifizierten Person benutzt',
-                    from_='+16693222484',
-                    to='+4915163496563'
-                )
+                try:
+                    message = client.messages \
+                        .create(
+                        body='Hey Luca, dein Computer wird gerade von einer verifizierten Person benutzt',
+                        from_='+16693222484',
+                        to='+4915163496563'
+                    )
+                except:
+                    pass
             print('')
             print('Verified')
             print('')
@@ -319,13 +322,16 @@ class FaceIDAppMain(App):
             self.verification_label.text = 'Unverified'
             Window.set_icon("icon_request.svg")
             Window.clearcolor =(1, 0, 0, 0)
-            if gSendSMS:
-                message = client.messages \
-                    .create(
-                    body='Hey Luca, dein Computer wird gerade von einer nicht verifizierten Person benutzt',
-                    from_='+16693222484',
-                    to='+4915163496563'
-                )
+            if gSendSMS:#
+                try:
+                    message = client.messages \
+                        .create(
+                        body='Hey Luca, dein Computer wird gerade von einer nicht verifizierten Person benutzt',
+                        from_='+16693222484',
+                        to='+4915163496563'
+                    )
+                except:
+                    pass
             print('')
             print('Unverified')
             print('')

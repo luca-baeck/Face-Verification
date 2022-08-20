@@ -12,7 +12,9 @@ Person über eine Webcam in Echtzeit erkennen, identifizieren und verifizieren k
 
 ## Screenshots
 
-![Home Page](/screenshots/1.png "Home Page")
+![Screenshot](/application-preview/verified.png "Screenshot")
+![Screenshot](/application-preview/unverified.png "Screenshot")
+![Screenshot](/application-preview/trained.png "Screenshot")
 
 ![](/screenshots/2.png)
 
@@ -47,4 +49,4 @@ Dies wird ein Bild über die Webcam aufnehmen und dem Model übergeben, welches 
 **Luca Bäck**
 
 - [Profil](https://github.com/luca-baeck "Luca Bäck")
-- [Email](mailto:luca.baeck@outlook.de?subject=Hi "Hi!")
+- [Email](mailto:luca.baeck@outlook.de?subject=Hello "Hi!")
