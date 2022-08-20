@@ -44,6 +44,10 @@ Dies wird ein Bild über die Webcam aufnehmen und dem Model übergeben, welches 
 
 - Python
 
+## IDE
+
+- PyCharm
+
 ## Autor
 
 **Luca Bäck**
