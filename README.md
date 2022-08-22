@@ -7,7 +7,7 @@ Person über eine Webcam in Echtzeit erkennen, identifizieren und verifizieren k
 
 - [Repository](https://github.com/luca-baeck/Face-Verification "Face Verification Repository")
 
-- [Bugs](https://github.com/Rohit19060/Face-Verification/issues "Issues Page")
+- [Bugs](https://github.com/luca-baeck/Face-Verification/issues "Issues Page")
 
 
 ## Screenshots
