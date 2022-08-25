@@ -16,10 +16,6 @@ Person über eine Webcam in Echtzeit erkennen, identifizieren und verifizieren k
 ![Screenshot](/application-preview/unverified.png "Screenshot")
 ![Screenshot](/application-preview/trained.png "Screenshot")
 
-![](/screenshots/2.png)
-
-![](/screenshots/3.png)
-
 ## Available Commands
 
 Im Programm kannst du folgende Befehle ausführen:
